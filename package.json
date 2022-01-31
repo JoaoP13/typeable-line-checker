@@ -1,0 +1,21 @@
+{
+  "name": "typeable-line-checker",
+  "version": "1.0.0",
+  "description": "Typeable line checker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "João Paulo Gonçalves de Souza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "consign": "^0.1.6",
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15"
+  }
+}
