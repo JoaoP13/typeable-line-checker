@@ -10,8 +10,8 @@
   "author": "João Paulo Gonçalves de Souza",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2",
-    "moment": "^2.29.1"
+    "dayjs": "^1.10.7",
+    "express": "^4.17.2"
   },
   "devDependencies": {
     "consign": "^0.1.6",
