@@ -60,7 +60,7 @@ module.exports = class TypeableLine {
             digit = (digit + 10 - digitRest) % 10;
             if (digit !== +digits[actual_field]) {
                 throw new Error(
-                    `O código verificador do campo ${actual_field} não é válido!`
+                    `O dígito verificador do campo ${actual_field} não é válido!`
                 );
             }
         }
@@ -70,7 +70,7 @@ module.exports = class TypeableLine {
                 digit = (digit + i - digitRest) % 10;
                 if (digit !== +digits[actual_field]) {
                     throw new Error(
-                        `O código verificador do campo ${actual_field} não é válido!`
+                        `O dígito verificador do campo ${actual_field} não é válido!`
                     );
                 }
             }
