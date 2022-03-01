@@ -96,7 +96,7 @@ describe('Validação das linhasdigitáveis', () => {
         return expect(response).toMatchObject(expectedToBe);
     })
 
-    it('Linha digitável válida (Pagamento de concessionária)', () => {
+    it('Linha digitável inválida (Pagamento de concessionária)', () => {
         const response = services.checkIfIsValidAndReturnData({
             params: {
                 typeableLine: '83680000003-3 00230048100-6 22218056921-2 00183609383-9'
